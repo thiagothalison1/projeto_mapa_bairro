@@ -1,0 +1,93 @@
+.menu {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #240331e0;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.menu h1 {
+    font-size: 26px;
+    color: white;
+    margin-top: 9px;
+    padding-left: 6px;
+}
+
+.menu-form {
+    padding-top: 40px;
+}
+
+.menu-icon {
+    cursor: pointer;
+    font-size: 30px;
+    position: absolute;
+    margin-left: 15px;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+}
+
+.menu-icon-open {
+    color: white;
+    left: unset;
+    right: 0;
+    margin-right: 5px;
+    color: white;
+}
+
+.open {
+    width: 250px;
+}
+  
+.menu p {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+  
+.menu p:hover {
+    color: #f1f1f1;
+}
+  
+.menu .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.menu .form-control {
+    width: 95%;
+}
+
+.menu .search-box {
+    height: 50px;
+    padding: 10px;
+    margin-left: 5px;
+    margin-right: 15px !important;
+}
+
+.menu .place-name {
+    color: white;
+    padding-left: 10px;
+    font-size: 18px;
+    cursor: pointer;
+}
+  
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+  
+@media screen and (max-height: 450px) {
+    .menu {padding-top: 15px;}
+    .menu a {font-size: 18px;}
+}

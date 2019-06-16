@@ -1,0 +1,8 @@
+/* reacstrap carousel custom rules */
+.carousel-control-prev {
+    cursor: pointer;
+}
+
+.carousel-control-next {
+    cursor: pointer;
+}
