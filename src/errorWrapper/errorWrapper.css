@@ -1,0 +1,16 @@
+.error-area {
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    top: 30%;
+    position: absolute;
+}
+
+.error-area .sad-face {
+    width: 40px;
+}
+
+.error-area h3 {
+    margin-top: 15px;
+    color: #00000070;
+}
